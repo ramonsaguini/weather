@@ -1,17 +1,16 @@
-body{
+body {
     background-image: url("https://source.unsplash.com/1600x900/?mountain");
     background-size: 100%;
-    display: flex;
-    justify-content: center;
+   
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2{
+h2 {
     color: aqua;
     font-size: 30px;
     font-family: 'Lugrasimo', cursive;
@@ -23,15 +22,17 @@ h2{
     border-radius: 25px;
     padding: 10px;
     width: 450px;
-
+    margin: 0 auto;
 }
-.box-1{
+
+.box-1 {
     padding: auto;
     margin-left: 100px;
     margin-right: 10px ;
     
 }
-.inp{ 
+
+.inp { 
     text-align: center;
     border: none;
     outline: none;
@@ -42,28 +43,27 @@ h2{
     width: calc(90% - 100px);
 }
 
-.btn{
+.btn {
     border-radius: 10px;
     border: none;
     outline: none;
     padding: 10px;
 }
-.umidity{
-    display: flex;
-    
-}
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(186, 185, 183);
     color: black;
     cursor: pointer;
 }
 
-.box-img{
-    display: flex;
-    
-    
+.umidity {
+    display: flex;    
 }
-.img-search{
+
+.box-img {
+    display: flex;
+}
+
+.img-search {
     width: 30px;
 }
