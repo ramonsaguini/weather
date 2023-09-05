@@ -1,10 +1,79 @@
-body {
-    background-image: url("https://source.unsplash.com/1600x900/?wheather");
-    min-width: 500px;
-    max-width: 1600px;
-    /* min-height: 815px; */
+@media only screen and (max-width: 600px) { 
+    body {
+    background-color: blue;
+ 
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Lugrasimo', cursive;
+}    
+
+.main {
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 450px;
+    width: 370px ;
+    margin: 0 auto;
+}
+
+.box-1 {
+    padding: auto;
+    margin-left: 100px;
+    margin-right: 10px ;
     
-   
+}
+
+.inp { 
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    color: rgb(2, 1, 1);
+    width: calc(90% - 100px);
+}
+
+.btn {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(186, 185, 183);
+    color: black;
+    cursor: pointer;
+}
+
+.umidity {
+    display: flex;    
+}
+
+.box-img {
+    display: flex;
+}
+
+.img-search {
+    width: 15px;
+}}
+
+@media only screen and (min-width: 600px) { 
+    body {
+    background-image: url("https://source.unsplash.com/1600x900/?wheather");
+    background-size: 100%;   
 }
 
 h1 {
@@ -24,7 +93,7 @@ h2 {
     opacity: 0.8;
     border-radius: 25px;
     padding: 10px;
-    width: 450px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -69,4 +138,217 @@ h2 {
 
 .img-search {
     width: 30px;
+}}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url("https://source.unsplash.com/1600x900/?wheather");
+        background-size: 100%;   
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2 {
+        color: aqua;
+        font-size: 30px;
+        font-family: 'Lugrasimo', cursive;
+    }    
+    
+    .main {
+        background: black;
+        opacity: 0.8;
+        border-radius: 25px;
+        padding: 10px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    
+    .box-1 {
+        padding: auto;
+        margin-left: 100px;
+        margin-right: 10px ;
+        
+    }
+    
+    .inp { 
+        text-align: center;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 25px;
+        color: rgb(2, 1, 1);
+        width: calc(90% - 100px);
+    }
+    
+    .btn {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(186, 185, 183);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .umidity {
+        display: flex;    
+    }
+    
+    .box-img {
+        display: flex;
+    }
+    
+    .img-search {
+        width: 30px;
+    }}
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url("https://source.unsplash.com/1600x900/?wheather");
+        background-size: 100%;   
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2 {
+        color: aqua;
+        font-size: 30px;
+        font-family: 'Lugrasimo', cursive;
+    }    
+    
+    .main {
+        background: black;
+        opacity: 0.8;
+        border-radius: 25px;
+        padding: 10px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    
+    .box-1 {
+        padding: auto;
+        margin-left: 100px;
+        margin-right: 10px ;
+        
+    }
+    
+    .inp { 
+        text-align: center;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 25px;
+        color: rgb(2, 1, 1);
+        width: calc(90% - 100px);
+    }
+    
+    .btn {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(186, 185, 183);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .umidity {
+        display: flex;    
+    }
+    
+    .box-img {
+        display: flex;
+    }
+    
+    .img-search {
+        width: 30px;
+    }
+    }
+
+@media only screen and (min-width: 1200px) 
+{
+    body {
+    background-image: url("https://source.unsplash.com/1600x900/?wheather");
+    background-size: 100%;   
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Lugrasimo', cursive;
+}    
+
+.main {
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.box-1 {
+    padding: auto;
+    margin-left: 100px;
+    margin-right: 10px ;
+    
+}
+
+.inp { 
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: rgb(2, 1, 1);
+    width: calc(90% - 100px);
+}
+
+.btn {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(186, 185, 183);
+    color: black;
+    cursor: pointer;
+}
+
+.umidity {
+    display: flex;    
+}
+
+.box-img {
+    display: flex;
+}
+
+.img-search {
+    width: 30px;
+}}
