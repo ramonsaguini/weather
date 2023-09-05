@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) { 
     body {
-    background-color: blue;
+        background-image: url("https://source.unsplash.com/200x600/?wheather");
+        background-size: 100%;
  
 }
 
